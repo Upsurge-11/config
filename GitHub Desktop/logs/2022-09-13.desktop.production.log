@@ -1,0 +1,91 @@
+2022-09-13T19:56:28.707Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-09-13T19:56:28.712Z - info: [ui] [AppStore] found account: Upsurge-11 (Arghyadeep Mukherjee)
+2022-09-13T19:56:28.805Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.7-arch1-1)
+2022-09-13T19:56:28.805Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-09-13T19:56:39.823Z - info: [ui] Subscribed 'Upsurge-11' to Alive channel
+2022-09-13T19:56:45.405Z - info: [ui] Stats reported.
+2022-09-13T19:58:16.549Z - info: [ui] [AppStore] adding repository at /home/upsurge11/Programming/Web-Dev/React-projects to store
+2022-09-13T19:58:25.228Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 7.104s)
+2022-09-13T19:58:30.053Z - info: [ui] Executing createCommit: git commit -F - (took 4.806s)
+2022-09-13T19:58:33.315Z - info: [ui] Executing getChangesFiles: git log 2918926e7923ee5b44495938b91ea2c8359a18fe -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 2.899s)
+2022-09-13T19:58:33.456Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.3s of which 0.0s paused, total 0.3s
+2022-09-13T20:03:41.323Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 287.318s)
+2022-09-13T20:03:42.949Z - info: [ui] Executing fetch: git -c credential.helper= fetch --progress --prune origin (took 1.616s)
+2022-09-13T20:03:50.016Z - info: [ui] Executing updateRemoteHEAD: git remote set-head -a origin (took 7.066s)
+2022-09-13T20:04:01.011Z - info: [ui] Executing getChangesFiles: git log 2918926e7923ee5b44495938b91ea2c8359a18fe -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 4.264s)
+2022-09-13T20:14:56.888Z - warn: [ui] getFetchPollInterval: failed for Upsurge-11/React-projects
+TypeError: Failed to fetch
+    at Tt (/home/upsurge11/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.getFetchPollInterval (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1439:35)
+    at po.getFetchInterval (/home/upsurge11/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:136:38)
+    at po.performAndScheduleFetch (/home/upsurge11/webpack:/[name]/app/src/lib/stores/helpers/background-fetcher.ts:117:33)
+2022-09-13T20:22:28.779Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:22:29.816Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:22:31.959Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:22:36.310Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:22:44.342Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:23:01.305Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:23:34.411Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:24:34.421Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:25:34.445Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:26:34.456Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:27:34.465Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:28:34.477Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:29:34.499Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:30:34.522Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:31:34.543Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:32:34.563Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:33:34.574Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:33:56.400Z - warn: [ui] failed fetching open PRs for repository Upsurge-11/React-projects
+TypeError: Failed to fetch
+    at Tt (/home/upsurge11/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchAllOpenPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at nF.constructor.fetchAndStoreOpenPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at nF.constructor.fetchAndStorePullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)
+2022-09-13T20:33:56.403Z - error: [ui] Error refreshing pull requests for 'Upsurge-11/React-projects'
+TypeError: Failed to fetch
+    at Tt (/home/upsurge11/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchAllOpenPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at nF.constructor.fetchAndStoreOpenPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at nF.constructor.fetchAndStorePullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)
+2022-09-13T20:34:34.598Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:35:34.620Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:36:34.642Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:37:34.664Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:38:34.686Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:39:34.706Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:40:34.716Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:41:34.738Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:42:34.759Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:43:34.770Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:44:34.792Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:45:34.812Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:46:34.825Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:47:34.850Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:48:34.872Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:49:34.895Z - warn: [ui] Alive web socket request failed: TypeError: Failed to fetch
+2022-09-13T20:49:52.355Z - warn: [ui] failed fetching open PRs for repository Upsurge-11/React-projects
+TypeError: Failed to fetch
+    at Tt (/home/upsurge11/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchAllOpenPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at nF.constructor.fetchAndStoreOpenPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at nF.constructor.fetchAndStorePullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)
+2022-09-13T20:49:52.356Z - error: [ui] Error refreshing pull requests for 'Upsurge-11/React-projects'
+TypeError: Failed to fetch
+    at Tt (/home/upsurge11/webpack:/[name]/app/src/lib/http.ts:152:10)
+    at gn.request (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1401:28)
+    at gn.fetchAll (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1372:45)
+    at gn.fetchAllOpenPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:938:25)
+    at nF.constructor.fetchAndStoreOpenPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:110:28)
+    at nF.constructor.fetchAndStorePullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-store.ts:99:19)
+    at Object.refreshPullRequests (/home/upsurge11/webpack:/[name]/app/src/lib/stores/pull-request-coordinator.ts:160:45)

@@ -1,0 +1,82 @@
+2022-10-05T10:29:51.863Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-10-05T10:29:51.876Z - info: [ui] [AppStore] found account: Upsurge-11 (Arghyadeep Mukherjee)
+2022-10-05T10:29:52.372Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.13-arch1-1)
+2022-10-05T10:29:52.373Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-10-05T10:29:52.668Z - warn: [ui] fetchMentionables: 'repos/Upsurge-11/React-projects/mentionables/users' returned a 404
+2022-10-05T10:29:52.691Z - warn: [ui] fetchRepository: 'Upsurge-11/React-projects' returned a 404
+2022-10-05T10:29:52.716Z - warn: [ui] fetchAll: 'repos/Upsurge-11/React-projects/issues?state=open' returned a 404
+2022-10-05T10:29:52.728Z - warn: [ui] fetchAll: 'repos/Upsurge-11/React-projects/pulls?state=open' returned a 404
+2022-10-05T10:29:53.915Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at _t (/home/upsurge11/webpack:/[name]/app/src/lib/http.ts:178:11)
+    at gn.fetchProtectedBranches (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1348:7)
+    at Vn.updateBranchProtectionsFromAPI (/home/upsurge11/webpack:/[name]/app/src/lib/stores/app-store.ts:3826:11)
+2022-10-05T10:29:54.327Z - info: [ui] Subscribed 'Upsurge-11' to Alive channel
+2022-10-05T10:30:04.345Z - info: [ui] [BranchPruner] No branches to prune.
+2022-10-05T10:30:09.192Z - info: [ui] [Timing] Action 'create commit' for 'Upsurge-11/Stuff' took 0.185s
+2022-10-05T10:30:10.736Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: Stuff - Upsurge-11 (has token)
+2022-10-05T10:30:12.639Z - info: [ui] Executing push: git -c credential.helper= push origin main:main --progress (took 1.887s)
+2022-10-05T10:30:18.479Z - info: [ui] [BranchPruner] Last prune took place 27 seconds ago - skipping
+2022-10-05T10:30:18.574Z - info: [ui] [fetchProtectedBranches] unable to list protected branches
+Error: Not Found
+    at _t (/home/upsurge11/webpack:/[name]/app/src/lib/http.ts:178:11)
+    at gn.fetchProtectedBranches (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1348:7)
+    at Vn.updateBranchProtectionsFromAPI (/home/upsurge11/webpack:/[name]/app/src/lib/stores/app-store.ts:3826:11)
+2022-10-05T10:30:18.649Z - warn: [ui] fetchRepository: 'Upsurge-11/React-projects' returned a 404
+2022-10-05T10:30:18.748Z - warn: [ui] fetchAll: 'repos/Upsurge-11/React-projects/issues?state=open' returned a 404
+2022-10-05T10:30:20.697Z - info: [ui] [RepositoryIndicatorUpdater]: Refreshing sidebar indicators for 1 repositories took 0.0s of which 0.0s paused, total 0.0s
+2022-10-05T10:30:49.250Z - info: [ui] [AppStore.withAuthenticatingUser] account found for repository: React-projects - Upsurge-11 (has token)
+2022-10-05T10:30:49.946Z - error: [ui] `git -c credential.helper= fetch --progress --prune origin` exited with an unexpected code: 128.
+stderr:
+remote: Repository not found.
+fatal: repository 'https://github.com/Upsurge-11/React-projects.git/' not found
+
+(The error was parsed as 8: The repository does not seem to exist anymore. You may not have access, or it may have been deleted or renamed.)
+2022-10-05T10:30:50.918Z - info: [ui] [fetchPushControl] unable to check if branch is potentially pushable
+Error: Not Found
+    at _t (/home/upsurge11/webpack:/[name]/app/src/lib/http.ts:178:11)
+    at gn.fetchPushControl (/home/upsurge11/webpack:/[name]/app/src/lib/api.ts:1322:7)
+    at Vn.refreshBranchProtectionState (/home/upsurge11/webpack:/[name]/app/src/lib/stores/app-store.ts:1094:39)
+    at /home/upsurge11/webpack:/[name]/app/src/lib/stores/app-store.ts:4721:32
+    at Vn.withPushPullFetch (/home/upsurge11/webpack:/[name]/app/src/lib/stores/app-store.ts:4241:5)
+    at Vn.performFetch (/home/upsurge11/webpack:/[name]/app/src/lib/stores/app-store.ts:4677:5)
+2022-10-05T10:30:52.740Z - warn: [ui] fetchAll: 'repos/Upsurge-11/React-projects/issues?state=open' returned a 404
+2022-10-05T10:31:07.898Z - error: [ui] 'git status' emitted 54625836 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:31:11.371Z - info: [ui] [BranchPruner] Last prune took place 1 minute ago - skipping
+2022-10-05T10:31:42.729Z - info: [ui] [AppStore] adding repository at /home/upsurge11/Programming/Web-Dev/React-projects to store
+2022-10-05T10:31:45.330Z - info: [ui] Executing isUsingLFS: git lfs track (took 2.563s)
+2022-10-05T10:31:47.141Z - error: [ui] 'git status' emitted 21670322 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:31:56.211Z - info: [ui] [AppStore] adding repository at /home/upsurge11/Programming/Web-Dev/React-projects to store
+2022-10-05T10:31:57.967Z - error: [ui] 'git status' emitted 21670322 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:32:19.755Z - error: [ui] 'git status' emitted 21670310 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:32:21.558Z - error: [ui] 'git status' emitted 21670310 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:32:22.351Z - info: [ui] [BranchPruner] Last prune took place 2 minutes ago - skipping
+2022-10-05T10:32:29.208Z - info: [ui] [AppStore] adding repository at /home/upsurge11/Programming/Web-Dev/React-projects to store
+2022-10-05T10:32:31.206Z - info: [ui] Executing isUsingLFS: git lfs track (took 1.938s)
+2022-10-05T10:32:31.917Z - error: [ui] 'git status' emitted 21670310 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:32:32.249Z - error: [ui] 'git status' emitted 21670310 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:32:32.914Z - error: [ui] 'git status' emitted 21670310 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:32:40.355Z - error: [ui] 'git status' emitted 21670310 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:32:40.406Z - error: [ui] 'git status' emitted 21670310 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:32:41.354Z - error: [ui] 'git status' emitted 21670310 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:32:41.901Z - info: [ui] [BranchPruner] Last prune took place 3 minutes ago - skipping
+2022-10-05T10:32:55.295Z - info: [ui] [AppStore] loading 1 repositories from store
+2022-10-05T10:32:55.307Z - info: [ui] [AppStore] found account: Upsurge-11 (Arghyadeep Mukherjee)
+2022-10-05T10:32:55.404Z - info: [ui] [BranchPruner] Last prune took place 3 minutes ago - skipping
+2022-10-05T10:32:56.031Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.13-arch1-1)
+2022-10-05T10:32:56.032Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-10-05T10:32:56.091Z - info: [ui] Subscribed 'Upsurge-11' to Alive channel
+2022-10-05T10:33:40.895Z - info: [ui] [AppStore] loading 1 repositories from store
+2022-10-05T10:33:40.906Z - info: [ui] [AppStore] found account: Upsurge-11 (Arghyadeep Mukherjee)
+2022-10-05T10:33:40.906Z - info: [ui] Subscribed 'Upsurge-11' to Alive channel
+2022-10-05T10:33:40.987Z - info: [ui] [BranchPruner] Last prune took place 4 minutes ago - skipping
+2022-10-05T10:33:41.362Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.13-arch1-1)
+2022-10-05T10:33:41.363Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-10-05T10:35:56.755Z - info: [ui] [AppStore] adding repository at /home/upsurge11/Programming/Web-Dev/React-projects to store
+2022-10-05T10:35:58.897Z - info: [ui] Executing isUsingLFS: git lfs track (took 2.113s)
+2022-10-05T10:36:00.727Z - error: [ui] 'git status' emitted 21670310 bytes, which is beyond the supported threshold of 20000000 bytes
+2022-10-05T10:36:14.940Z - info: [ui] [AppStore] adding repository at /home/upsurge11/Programming/Web-Dev/React-projects to store
+2022-10-05T10:36:16.411Z - info: [ui] Executing updateIndex: git update-index --add --remove --replace -z --stdin (took 1.410s)
+2022-10-05T10:36:42.361Z - info: [ui] Executing push: git -c credential.helper= push origin main --set-upstream --progress (took 3.569s)
+2022-10-05T10:36:44.154Z - info: [ui] [BranchPruner] Last prune took place 7 minutes ago - skipping
+2022-10-05T10:36:49.174Z - info: [main] opening in browser: https://github.com/Upsurge-11/React-projects

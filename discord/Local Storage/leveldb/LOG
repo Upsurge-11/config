@@ -1,0 +1,6 @@
+2022/10/06-17:06:50.712 161b33 Reusing MANIFEST /home/upsurge11/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/10/06-17:06:50.712 161b33 Recovering log #354
+2022/10/06-17:06:50.712 161b33 Reusing old log /home/upsurge11/.config/discord/Local Storage/leveldb/000354.log 
+2022/10/06-17:10:27.142 161b33 Level-0 table #358: started
+2022/10/06-17:10:27.178 161b33 Level-0 table #358: 1134117 bytes OK
+2022/10/06-17:10:27.182 161b33 Delete type=0 #354

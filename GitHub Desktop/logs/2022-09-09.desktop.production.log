@@ -1,0 +1,6 @@
+2022-09-09T12:32:22.374Z - info: [ui] [AppStore] loading 0 repositories from store
+2022-09-09T12:32:22.388Z - info: [ui] [AppStore] found account: Upsurge-11 (Arghyadeep Mukherjee)
+2022-09-09T12:32:22.604Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.7-arch1-1)
+2022-09-09T12:32:22.606Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-09-09T12:32:28.620Z - info: [ui] Subscribed 'Upsurge-11' to Alive channel
+2022-09-09T12:32:34.859Z - info: [ui] Stats reported.

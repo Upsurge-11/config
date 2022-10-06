@@ -1,0 +1,6 @@
+2022-09-17T17:38:21.964Z - info: [ui] [AppStore] loading 2 repositories from store
+2022-09-17T17:38:21.975Z - info: [ui] [AppStore] found account: Upsurge-11 (Arghyadeep Mukherjee)
+2022-09-17T17:38:22.406Z - info: [ui] launching: 3.0.6-linux1 (Linux 5.19.9-arch1-1)
+2022-09-17T17:38:22.411Z - info: [ui] execPath: '/opt/github-desktop/github-desktop'
+2022-09-17T17:38:26.664Z - info: [ui] Executing getChangesFiles: git log 604e67bcd47c0311b4003b3978148f4c06db049c -C -M -m -1 --no-show-signature --first-parent --raw --format=format: --numstat -z -- (took 3.869s)
+2022-09-17T17:38:29.349Z - info: [ui] Subscribed 'Upsurge-11' to Alive channel
